@@ -28,11 +28,13 @@ public class Main {
           String estado = leer.next(); //Leer el estado del automovil
           Auto nuevoAuto = new Auto (marca, modelo, anioFabricacion, estado);
           inventario.agregarAuto(nuevoAuto); //Agregar el automovil al inventario
+          System.out.println("El automovil ha sido agregado al inventario exitosamente");
           break;
         case 2: //Opcion para eliminar un automovil del inventario
           System.out.println("Ingrese el modelo del automovil que desea eliminar");
           String modeloEliminar = leer.next(); //Leer el modelo del automovil a eliminar
           inventario.eliminarAuto(modeloEliminar);
+          System.out.println("El automovil ha sido eliminado del inventario");
           break;
         case 3: //Opcion para modificar las caracteristicas de un automovil
           System.out.println("Ingrese el modelo del automovil que desea modificar");
@@ -45,6 +47,7 @@ public class Main {
           System.out.println("Ingrese el nuevo estado: (Nuevo/usado)");
           String estadoModificar = leer.next(); //Leer el estado del automovil
           inventario.modificarAuto(modeloModificar, marcaModificar, anioFabricacionModificar, estadoModificar);
+          System.out.println("Las caracteristicas del automovil han sido modificadas exitosamente");
           break;
         case 4: //Opcion para mostrar los automoviles en existencia
           inventario.mostrarAutos();
@@ -57,5 +60,7 @@ public class Main {
           break;
         }
     }while(opcion !=5);
+    PruebasAutos test = new PruebasAutos();
+    test.runTest();
   }
 }
