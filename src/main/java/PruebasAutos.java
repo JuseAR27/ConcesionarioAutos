@@ -1,5 +1,5 @@
-public class PruebasAutos 
-
+public class PruebasAutos
+  /** @Author José Francisco Aquino Rivera */
 {  
   public void runTest()
   {

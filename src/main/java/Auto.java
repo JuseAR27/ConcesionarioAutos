@@ -1,4 +1,5 @@
 public class Auto {
+  /** @Author José Francisco Aquino Rivera */
   private String marca; //Atributo marca del tipo String
   private String modelo; //Atributo modelo del tipo String
   private int anioFabricacion; //Atributo anioFabricacion del tipo int

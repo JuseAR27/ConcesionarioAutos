@@ -1,5 +1,6 @@
 import java.util.Scanner; //Se importa la clase Scanner para leer datos ingresados por el usuario
 public class Main {
+  /** @Author José Francisco Aquino Rivera */
   public static void main(String[] args) {
     int opcion = 0; //Variable para almacenar la opcion del menu
     Scanner leer = new Scanner(System.in); //Crear un objeto Scanner para leer la entrada del usuario

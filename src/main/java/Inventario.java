@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 public class Inventario {
+  /** @Author José Francisco Aquino Rivera */
   private ArrayList<Auto> autos; //Atributo autos del tipo ArrayList<Auto>
   
   public Inventario(){
